@@ -1,0 +1,224 @@
+html,
+body {
+  color: rgba(33, 37, 41, 1);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+.logo-js {
+  font-size: 1.5rem;
+  float: left;
+  padding: .4rem .5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+header {
+  background-color: rgba(247, 248, 249, 1);
+  padding: .4rem 0 0;
+  
+}
+
+.menu {
+  padding: .4rem 2rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(242, 242, 242, 1);
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+}
+
+header li a {
+  border-radius: 5px;
+  color: rgba(0, 0, 0, .5);
+  display: block;
+  height: 44px;
+  text-decoration: none;
+}
+
+header li.menu-item a {
+  border-radius: 5px;
+  margin: 5px 0;
+  height: 38px;
+  line-height: 36px;
+  padding: .4rem .65rem;
+  text-align: center;
+}
+
+header li.menu-item a:hover {
+  background-color: rgb(0, 40, 189);
+  color: rgb(255, 255, 255);
+}
+
+.software {
+  font-weight: lighter;
+}
+
+.logotipo {
+  width: 150px;
+  height: auto;
+}
+
+.hero,
+main {
+  padding-top: 30px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+  min-height: 300px;
+  background-color: #cddff7;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 20px;
+}
+
+.formulario label,
+.formulario .label {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  padding-right: 10px;
+  margin-bottom: 0;
+  height: 25px;
+}
+
+.formulario input,
+.formulario .datos {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+.botones {
+  width: auto;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  grid-column: 1 / -1;
+}
+
+.stboton {
+  padding: 10px;
+  background-color: rgb(0, 40, 189);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.rdboton {
+  background-color: red;
+}
+
+.stboton:hover {
+  filter: drop-shadow(2px 2px 3px blue);
+}
+
+.tabla {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .copyrights {
+  background-color: rgba(62, 62, 62, 1);
+  color: rgba(200, 200, 200, 1);
+  padding: .25rem 1.75rem;
+}
+
+.thumb_img {
+  width: 50px;
+  height: auto;
+}
+
+.nombre_archivo {
+  margin-bottom: 15px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.form_input_file {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mnboton {
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+  background-color: rgb(0, 40, 189);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: normal;
+  text-decoration: none;
+  border: 2px solid white;
+}
